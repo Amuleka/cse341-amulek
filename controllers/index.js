@@ -1,9 +1,9 @@
-const awesomeFunction = (req, res, next) => {
+const friendName = (req, res, next) => {
     res.json('Moy Cardenas');
 };
 
-const returnanotherPerson = (req, res, next) => {
+const anotherFriendName = (req, res, next) => {
     res.json('Jaime Corral');
 };
 
-module.exports = {awesomeFunction, returnanotherPerson};
+module.exports = {friendName, anotherFriendName};
