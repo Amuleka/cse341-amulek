@@ -8,3 +8,17 @@ GET http://localhost:8080/contacts/63fea092efe51fe278d73f43
 
 ###
 GET http://localhost:8080/contacts/63fea092efe51fe278d73f44
+
+// Render Deployment
+
+###
+GET https://cse341-amulek.onrender.com/contacts
+
+###
+GET https://cse341-amulek.onrender.com/contacts/63fea092efe51fe278d73f42
+
+###
+GET https://cse341-amulek.onrender.com/contacts/63fea092efe51fe278d73f43
+
+###
+GET https://cse341-amulek.onrender.com/contacts/63fea092efe51fe278d73f44
