@@ -1,13 +1,13 @@
-GET http://localhost:8080/contacts
+GET http://localhost:8080/contacts HTTP/1.1
 
 ###
-GET http://localhost:8080/contacts/63fea092efe51fe278d73f42
+GET http://localhost:8080/contacts/63fea092efe51fe278d73f42 HTTP/1.1
 
 ###
-GET http://localhost:8080/contacts/63fea092efe51fe278d73f43
+GET http://localhost:8080/contacts/63fea092efe51fe278d73f43 HTTP/1.1
 
 ###
-GET http://localhost:8080/contacts/63fea092efe51fe278d73f44
+GET http://localhost:8080/contacts/63fea092efe51fe278d73f44 HTTP/1.1
 
 // Render Deployment
 
