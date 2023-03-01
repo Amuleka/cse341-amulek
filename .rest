@@ -1,9 +1,10 @@
-GET http://localhost:3000 HTTP/1.1
-
+GET http://localhost:8080/contacts
 
 ###
-GET http://localhost:3000/another HTTP/1.1
+GET http://localhost:8080/contacts/63fea092efe51fe278d73f42
 
+###
+GET http://localhost:8080/contacts/63fea092efe51fe278d73f43
 
-### 
-# GET https://cse341-amulek.onrender.com HTTP/1.1
+###
+GET http://localhost:8080/contacts/63fea092efe51fe278d73f44
