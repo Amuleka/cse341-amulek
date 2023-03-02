@@ -1,25 +1,25 @@
 {
-    "user1": {
-        "firstName": "Moises",
-        "lastName": "Cardenas",
-        "email": "moises@cardenas.com",
-        "favoriteColor": "Blue",
-        "birthday": "1996-08-28"
-    },
+  "user1": {
+    "firstName": "Moises",
+    "lastName": "Cardenas",
+    "email": "moises@cardenas.com",
+    "favoriteColor": "Blue",
+    "birthday": "1996-08-28"
+  },
 
-    "user2": {
-        "firstName": "Jaime",
-        "lastName": "Corral",
-        "email": "jaime@corral.com",
-        "favoriteColor": "Black",
-        "birthday": "2001-05-28"
-    },
+  "user2": {
+    "firstName": "Jaime",
+    "lastName": "Corral",
+    "email": "jaime@corral.com",
+    "favoriteColor": "Black",
+    "birthday": "2001-05-28"
+  },
 
-    "user3": {
-        "firstName": "Olivia",
-        "lastName": "Rodrigo",
-        "email": "olivia@rodrigo.com",
-        "favoriteColor": "Pink",
-        "birthday": "2002-02-20"
-    }
+  "user3": {
+    "firstName": "Olivia",
+    "lastName": "Rodrigo",
+    "email": "olivia@rodrigo.com",
+    "favoriteColor": "Pink",
+    "birthday": "2002-02-20"
+  }
 }
