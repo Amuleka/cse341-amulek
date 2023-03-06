@@ -1,7 +1,7 @@
 GET http://localhost:8080/contacts HTTP/1.1
 
 ###
-GET http://localhost:8080/contacts/63fea092efe51fe278d73f42 HTTP/1.1
+GET http://localhost:8080/contacts/63ffefd2b50b891e65b20ab4 HTTP/1.1
 
 ###
 POST http://localhost:8080/contacts HTTP/1.1
@@ -35,10 +35,31 @@ DELETE http://localhost:8080/contacts/63fff3c8e3a9312347f7fde8 HTTP/1.1
 GET https://cse341-amulek.onrender.com/contacts HTTP/1.1
 
 ###
-GET https://cse341-amulek.onrender.com/contacts/63fea092efe51fe278d73f42 HTTP/1.1
+GET https://cse341-amulek.onrender.com/contacts/63ffefd2b50b891e65b20ab4 HTTP/1.1
 
 ###
-GET https://cse341-amulek.onrender.com/contacts/63fea092efe51fe278d73f43 HTTP/1.1
+POST https://cse341-amulek.onrender.com/contacts HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName": "Sharon",
+    "lastName": "Angulo",
+    "email": "sharon@angulo.com",
+    "favoriteColor": "Red",
+    "birthday": "1995-09-12"
+}
 
 ###
-GET https://cse341-amulek.onrender.com/contacts/63fea092efe51fe278d73f44 HTTP/1.1
+PUT https://cse341-amulek.onrender.com/contacts/63ffefd2b50b891e65b20ab4 HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Moises",
+    "lastName": "Cardenas",
+    "email": "moises@car.com",
+    "favoriteColor": "Black",
+    "birthday": "1996-09-10"
+}
+
+###
+DELETE https://cse341-amulek.onrender.com/contacts/63fff82f0057c1946b247483 HTTP/1.1
