@@ -1,4 +1,4 @@
-GET http://localhost:8080/contacts HTTP/1.1
+GET http://localhost:8080/api-docs/#/default/get_contacts_ HTTP/1.1
 
 ###
 GET http://localhost:8080/contacts/63ffefd2b50b891e65b20ab4 HTTP/1.1
@@ -32,7 +32,7 @@ DELETE http://localhost:8080/contacts/63fff3c8e3a9312347f7fde8 HTTP/1.1
 
 // Render Deployment
 ###
-GET https://cse341-amulek.onrender.com/contacts HTTP/1.1
+GET https://cse341-amulek.onrender.com/api-docs/#/default/get_contacts_ HTTP/1.1
 
 ###
 GET https://cse341-amulek.onrender.com/contacts/63ffefd2b50b891e65b20ab4 HTTP/1.1
