@@ -5,7 +5,7 @@
     "description": "Contact API",
     "version": "1.0.0"
   },
-  "host": "cse341-amulek.onrender.com/",
+  "host": "cse341-amulek.onrender.com",
   "basePath": "/",
   "schemes": [
     "https"
